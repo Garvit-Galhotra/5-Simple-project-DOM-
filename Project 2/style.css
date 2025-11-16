@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 400px;
+  width: 350px;
+  background-color: crimson;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+i {
+  position: absolute;
+  color: white;
+  font-size: 500%;
+  transform: scale(0);
+  transition: transform ease 0.3s;
+}
